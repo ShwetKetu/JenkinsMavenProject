@@ -1,7 +1,6 @@
 package com.renju.training.jenkins;
 
 import org.testng.annotations.Test;
-
 import org.testng.AssertJUnit;
 
 public class JenkinsCalcTest {
