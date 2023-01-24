@@ -1,5 +1,7 @@
 package com.renju.training.jenkins;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +28,7 @@ public class SampleSeleniumTest {
 	public void validateGoogleId() throws Exception {
 		System.out.println("Opening Browser");
 		driver.get("http://www.google.com");
-		System.out.println("Clicking Gmail Link");
+		System.out.println("Clicking Gmail Link now");
 		driver.findElement(By.xpath("//*[@id=\"gbw\"]/div/div/div[1]/div[1]/a")).click();
 		System.out.println("Clicking Sign In here link");
 		driver.findElement(By.xpath("/html/body/nav/div/a[2]")).click();
