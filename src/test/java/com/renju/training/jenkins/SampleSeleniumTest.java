@@ -22,6 +22,7 @@ public class SampleSeleniumTest {
 	}
 	
 	@Test
+
 	public void validateGoogleId() throws Exception {
 		System.out.println("Opening Browser");
 		driver.get("http://www.google.com");
